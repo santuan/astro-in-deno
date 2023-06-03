@@ -29,5 +29,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "cool-oyster-57"
-          entrypoint: "./dist/server/entry.mjs" # 📝 Update the entrypoint
+          entrypoint: "entry.mjs" # 📝 Update the entrypoint
           root: "."
