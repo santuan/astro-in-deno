@@ -1,0 +1,16 @@
+{
+  "name": "deno-astro",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/deno": "^4.1.1",
+    "astro": "^2.5.7"
+  }
+}
